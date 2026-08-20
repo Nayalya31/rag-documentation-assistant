@@ -1,0 +1,26 @@
+# Виртуальное окружение
+venv_py311/
+venv/
+.venv/
+env/
+
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Данные, которые создаются при запуске
+assistant_api/chroma_db/
+assistant_api/*.db
+*.db
+
+# Системные файлы
+.DS_Store
+Thumbs.db
